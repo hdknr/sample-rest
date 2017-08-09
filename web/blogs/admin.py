@@ -1,3 +1,15 @@
+# coding: utf-8
 from django.contrib import admin
 
-# Register your models here.
+
+from . import models
+
+
+@admin.register(models.Status)
+class StatusAdmin(admin.ModelAdmin):
+    pass
+
+
+@admin.register(models.Article)
+class ArticleAdmin(admin.ModelAdmin):
+    pass

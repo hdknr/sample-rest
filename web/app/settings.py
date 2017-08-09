@@ -24,8 +24,6 @@ SECRET_KEY = '+6*kodqk^+$=-k@9j_1-l=joxo!^4*&a&7@je4_)3$p*@kd_f%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -115,6 +113,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 ###
+ALLOWED_HOSTS = ['localhost', 'develop.local', ]
 LANGUAGE_CODE = 'ja'
 TIME_ZONE = 'Asia/Tokyo'
 INSTALLED_APPS += [
