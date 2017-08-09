@@ -12,7 +12,7 @@ class Status(models.Model):
         verbose_name = _('Article Status')
         verbose_name_plural = _('Article Status')
 
-    def __unicode__(self):
+    def __str__(self):
         return self.name
 
 
@@ -28,5 +28,5 @@ class Article(models.Model):
         verbose_name = _('Article')
         verbose_name_plural = _('Articles')
 
-    def __unicode__(self):
+    def __str__(self):
         return self.title

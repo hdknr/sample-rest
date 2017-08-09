@@ -7,9 +7,9 @@ from . import models
 
 @admin.register(models.Status)
 class StatusAdmin(admin.ModelAdmin):
-    pass
+    list_display = ['id', 'code', 'name']
 
 
 @admin.register(models.Article)
 class ArticleAdmin(admin.ModelAdmin):
-    pass
+    list_display = ['id', 'author', 'title', 'updated_at', ]
