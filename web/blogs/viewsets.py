@@ -25,3 +25,4 @@ class ArticleViewSet(viewsets.ModelViewSet):
     queryset = models.Article.objects.all()
     serializer_class = serializers.ArticleSerializer
     # permission_classes = [BasePerm, ]
+    filter_fields = ['author', 'status', 'title', 'body', ]
