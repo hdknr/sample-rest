@@ -1,8 +1,12 @@
 # Framework
 django
 
+# Command
+django-click
+
 # REST
 djangorestframework
+requests
 
 # Other
 django-filter

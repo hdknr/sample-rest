@@ -101,3 +101,6 @@ ENV/
 # database
 
 *.sqlite3
+
+# Mac OSX
+.DS_Store
